@@ -12,8 +12,8 @@
 
         <!--The file where mod information which is required for publishing mod on PDX mods are stored-->
         <PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
-        <AssemblyVersion>1.7.2</AssemblyVersion>
-        <FileVersion>1.7.2</FileVersion>
+        <AssemblyVersion>1.7.4</AssemblyVersion>
+        <FileVersion>1.7.4</FileVersion>
         <LangVersion>default</LangVersion>
         <Version>1.0.0</Version>
         <Authors>Konsi</Authors>
@@ -98,6 +98,10 @@
         <None Update="Resources\game_crash_warning.svg">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Systems\" />
     </ItemGroup>
 
 </Project>
